@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css?family=Dosis|Fira+Sans');
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0 auto;
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+}
+header, footer {
+  font-family: 'Fira Sans', sans-serif;
+  background-color: #C3C3C3;
+}
+header {
+  margin: 0 0 40px 0;
+}
+footer {
+  margin: 20px 0 0 0;
+  padding: 10px 0 5px 0;
+  font-size: 1.2em;
+  text-align: center;
+}
+#logo, h1{
+    vertical-align: middle;
+}
+#logo {
+  width: 250px;
+}
+h1{
+  display: inline-block;
+  font-size: 3em;
+  padding: 0 0 0 4vw;
+  text-align: center;
+  text-shadow: 5px 5px 10px #7B7B7B;
+}
+input[id="second-group"]:checked ~ div[id="second-group"]{
+  background-color: yellow;
+}
+.item {
+
+}
+.foto-vegetable {
+  width: 20vw;
+}
+
+
+input {
+  margin: 40px 0;
+  text-align: center;
+}
